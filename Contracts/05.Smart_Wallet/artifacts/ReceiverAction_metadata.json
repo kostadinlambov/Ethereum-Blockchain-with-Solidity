@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "balanceReceived",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BlockchainDevCourse/05.Smart_Wallet/LowLevelCalls.sol": "ReceiverAction"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BlockchainDevCourse/05.Smart_Wallet/LowLevelCalls.sol": {
+			"keccak256": "0x8fd1f2e2c855b077255f12336126f8663aa8d7993d53bc80c8b33e5a3f80db66",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://87c6d0bc3b2f6b71cbfc9a563ca598c418cecfee49545187b2f9d21b63ddebc7",
+				"dweb:/ipfs/QmQVgwy4rZSo5yLQkexg6gUqDMF8rp6cA6z6jo2jB9duXE"
+			]
+		}
+	},
+	"version": 1
+}

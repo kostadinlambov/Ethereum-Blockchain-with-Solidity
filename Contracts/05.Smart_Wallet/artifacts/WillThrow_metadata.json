@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.14+commit.80d49f37"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "ThisIsACustomError",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "aFunction",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BlockchainDevCourse/05.Smart_Wallet/ErrorHandling.sol": "WillThrow"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BlockchainDevCourse/05.Smart_Wallet/ErrorHandling.sol": {
+			"keccak256": "0xa6bc39b6ead6012faa7f98171f61b959472355ed2fe99d21a648ceb30e107d73",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b3fb517a927885f819c9dd3765af86361133be1810fb362d937e58d52c41f49b",
+				"dweb:/ipfs/QmQQZ5c8hGnhsPPsGdaAR5aEhFiv43GRazptib1rntGk6n"
+			]
+		}
+	},
+	"version": 1
+}

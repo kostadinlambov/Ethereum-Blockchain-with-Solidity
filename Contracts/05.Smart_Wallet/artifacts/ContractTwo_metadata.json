@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contractOne",
+						"type": "address"
+					}
+				],
+				"name": "depositOnContractOne",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BlockchainDevCourse/05.Smart_Wallet/LowLevelCallsOnReceive.sol": "ContractTwo"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BlockchainDevCourse/05.Smart_Wallet/LowLevelCallsOnReceive.sol": {
+			"keccak256": "0xe5a57e38e6e41a94fa33b831d392a23fa6f3a1bb4911697eb8e93b2c1bd24153",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://d95f199ba2b43aeb3da4bad594d76acf3161e6394000ff70f510d2a2574be294",
+				"dweb:/ipfs/QmQoEqL3sttmLTZEQajGCCubr9cFF9mHUoFRcZx5yadX1j"
+			]
+		}
+	},
+	"version": 1
+}
