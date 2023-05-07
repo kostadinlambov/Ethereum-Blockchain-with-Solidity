@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "lastFunctionCalled",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "lastValueSent",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BlockchainDevCourse/04.SmartMoney_Deposit_and_Withdrawals/SampleFallback.sol": "SampleFallback"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BlockchainDevCourse/04.SmartMoney_Deposit_and_Withdrawals/SampleFallback.sol": {
+			"keccak256": "0xbd26ec4745e84d11eeace61026c9638d05693dc352d84c1353da6d50d14c8eb4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://81f403305bea219d5b686f045c74c58f1a3ada9fec3b1e914d38cf1dc4abe976",
+				"dweb:/ipfs/QmXHv4cxyK1icHtYRPG2yb1YCAZk4RbsMFXinNnVY6pGhj"
+			]
+		}
+	},
+	"version": 1
+}

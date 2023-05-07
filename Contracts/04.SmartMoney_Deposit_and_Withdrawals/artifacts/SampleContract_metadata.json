@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_newString",
+						"type": "string"
+					}
+				],
+				"name": "updateString",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BlockchainDevCourse/04.SmartMoney_Deposit_and_Withdrawals/SampleContract.sol": "SampleContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BlockchainDevCourse/04.SmartMoney_Deposit_and_Withdrawals/SampleContract.sol": {
+			"keccak256": "0xb769c05b6fff8c04b8829d0a7e30ff4149a9dfce359ea9cc87070c2685012ed7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://304113aff6ee0d544d598ad2440019479ee3b4bb0fe5250b5cc943bf93d813f5",
+				"dweb:/ipfs/QmZgQQn7Ziq3MLVFMJPobotjiCfHWqMPmJcTRvqrjbphjs"
+			]
+		}
+	},
+	"version": 1
+}
